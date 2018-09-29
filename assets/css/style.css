@@ -1,3 +1,5 @@
+/* here is CSS for responsive site for Mobile version first and then it is going media query */
+
 html,
 body {
   height: 100%;
@@ -101,11 +103,11 @@ span {
 }
 
 /* CONTACT */
-form{
-  display:flex;
+form {
+  display: flex;
   flex-direction: column;
 }
-#btn{
+#btn {
   background-color: #4aaaa5;
   color: #fff;
   border: none;
@@ -113,20 +115,20 @@ form{
   font-weight: 600;
   padding: 8px 0;
 }
-label{
-  margin:10px 0; 
+label {
+  margin: 10px 0;
 }
-input{
+input {
   border: 1px solid #777;
 }
-textarea{
+textarea {
   border: 1px solid #777;
   background-color: transparent;
 }
 
 /* check is it right with min and max */
 
-@media all and (min-width: 1024px){
+@media all and (min-width: 1024px) {
   .hed {
     display: flex;
     flex-direction: row;
@@ -141,15 +143,15 @@ textarea{
     align-items: center;
     margin-right: 5%;
   }
-  .port-nav{
-    margin-right:10%
+  .port-nav {
+    margin-right: 10%;
   }
   .logo {
     margin-left: 5%;
     padding: 0 5%;
   }
-  .port-logo{
-    margin-left:10%
+  .port-logo {
+    margin-left: 10%;
   }
 
   img {
@@ -164,7 +166,7 @@ textarea{
   /* PORTFOLIO */
   .portfolio-art {
     display: inline-block;
-    
+
     margin: 10%;
     text-align: center;
   }
@@ -189,15 +191,12 @@ textarea{
     text-align: center;
   }
   /* CONTACT */
-  #btn{
-    width:10%;
+  #btn {
+    width: 10%;
   }
-  
 }
 
-
-
-@media all and (min-width: 769px) and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .hed {
     display: flex;
     flex-direction: row;
@@ -212,15 +211,15 @@ textarea{
     align-items: center;
     margin-right: 5%;
   }
-  .port-nav{
-    margin-right:10%
+  .port-nav {
+    margin-right: 10%;
   }
   .logo {
     margin-left: 5%;
     padding: 0 5%;
   }
-  .port-logo{
-    margin-left:10%
+  .port-logo {
+    margin-left: 10%;
   }
 
   img {
@@ -235,7 +234,7 @@ textarea{
   /* PORTFOLIO */
   .portfolio-art {
     display: inline-block;
-    
+
     margin: 10%;
     text-align: center;
   }
@@ -260,12 +259,11 @@ textarea{
     text-align: center;
   }
   /* CONTACT */
-  #btn{
-    width:10%;
+  #btn {
+    width: 10%;
   }
-  
 }
-@media all and (min-width: 640px) and (max-width: 768px) {
+@media all and (min-width: 640px) and (max-width: 767px) {
   .hed {
     display: flex;
     flex-direction: row;
@@ -319,10 +317,9 @@ textarea{
     padding: 20px 0;
     text-align: center;
   }
-/* CONTACT */
+  /* CONTACT */
 
-  #btn{
-    width:13%;
+  #btn {
+    width: 13%;
   }
-  
 }
